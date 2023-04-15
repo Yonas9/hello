@@ -45,6 +45,7 @@
 						<workerType>${cloudhub.worker}</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
+					<argLine>--add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED</argLine>
 				</configuration>
 			</plugin>
 		</plugins>
