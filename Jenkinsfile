@@ -12,8 +12,10 @@ pipeline {
   stages {
     stage('Build') {
       steps {
+      		bat 'mvn clean -DargLine="--add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED"'
+      
             bat 'mvn -B -U -e -V clean -gs %M2SETTINGS% -DskipTests package'
-            --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED
+          
             
       }
     }
