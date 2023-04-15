@@ -2,7 +2,7 @@ mule:
   version: "4.4.0"
 anypoint:
   username: "DevMax"
-  password: "MuleMax"
+  password: "MuleMax2021"
   
 cloudhub:
   enviroment: "Sandbox"
