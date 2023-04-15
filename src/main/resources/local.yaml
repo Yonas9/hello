@@ -1,0 +1,12 @@
+mule:
+  version: "4.4.0"
+anypoint:
+  username: "DevMax"
+  password: "MuleMax"
+  
+cloudhub:
+  enviroment: "Sandbox"
+  app: "helloWorld2023"
+  bg: "SelfTaught"
+  worker: "Micro"
+  
